@@ -53,6 +53,15 @@
     <div class="posts">
 <article class="post">
   <h1 class="post-title">
+    <a href="https://voyiid.github.io/hugo%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E/">Hugo安装说明</a>
+  </h1>
+  <time datetime="2024-04-14T16:25:59&#43;0800" class="post-date">Sun, Apr 14, 2024</time>
+  1、主要参考网站:https://www.gohugo.org/ 2、关键问题1： 本地验证完全，建立git准备发布至github前，应该先将本地分支重命名为main； 否则，上传按照默认master上传，会自动新建分支，而username.github.io无法正常获取master分支下的博客信息，起只取得main分支下的。 原因： github新建仓库默认分支为main，而不是master了； 命令：git branch -m main 3、关键问题2：git首次上传commit时，会提示&quot;作者身份未知&quot;，此时就需要按照提示配置： git config &ndash;global user.name XXX git config &ndash;global user.email XX@XXX.XX
+4、关键问题3：git上传输入的用户名为github用户名，当时密码不是github账号的密码，而是需要在github账号配置-开发设置&ndash;配置 Personal access tokens，这个才是git密码；
+5、关键问题4： git-push的时候可能提示云端和本地不一致，可能是在创建仓库的时候，勾选创建了README.md，此时可以强制上传(-f)； 命名： git push -n -f origin main
+  
+</article><article class="post">
+  <h1 class="post-title">
     <a href="https://voyiid.github.io/post/hello/">First</a>
   </h1>
   <time datetime="2024-04-14T11:24:38&#43;0800" class="post-date">Sun, Apr 14, 2024</time>
