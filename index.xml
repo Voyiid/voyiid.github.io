@@ -2,25 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://voyiid.github.io/</link>
+    <link>http://voyiid.github.io/</link>
     <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 14 Apr 2024 16:25:59 +0800</lastBuildDate>
-    <atom:link href="https://voyiid.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://voyiid.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo安装说明</title>
-      <link>https://voyiid.github.io/hugo%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E/</link>
+      <link>http://voyiid.github.io/hugo%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E/</link>
       <pubDate>Sun, 14 Apr 2024 16:25:59 +0800</pubDate>
-      <guid>https://voyiid.github.io/hugo%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E/</guid>
+      <guid>http://voyiid.github.io/hugo%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E/</guid>
       <description>1、主要参考网站:https://www.gohugo.org/&#xA;2、关键问题1： 本地验证完全，建立git准备发布至github前，应该先将本地分支重命名为main； 否则，上传按照默认master上传，会自动新建分支，而username.github.io无法正常获取master分支下的博客信息，起只取得main分支下的。 原因： github新建仓库默认分支为main，而不是master了； 命令：git branch -m main&#xA;3、关键问题2：git首次上传commit时，会提示&amp;quot;作者身份未知&amp;quot;，此时就需要按照提示配置： git config &amp;ndash;global user.name XXX git config &amp;ndash;global user.email XX@XXX.XX&#xA;4、关键问题3：git上传输入的用户名为github用户名，当时密码不是github账号的密码，而是需要在github账号配置-开发设置&amp;ndash;配置 Personal access tokens，这个才是git密码；&#xA;5、关键问题4： git-push的时候可能提示云端和本地不一致，可能是在创建仓库的时候，勾选创建了README.md，此时可以强制上传(-f)； 命名： git push -n -f origin main</description>
     </item>
     <item>
       <title>First</title>
-      <link>https://voyiid.github.io/post/first/</link>
+      <link>http://voyiid.github.io/post/first/</link>
       <pubDate>Sun, 14 Apr 2024 11:24:38 +0800</pubDate>
-      <guid>https://voyiid.github.io/post/first/</guid>
+      <guid>http://voyiid.github.io/post/first/</guid>
       <description>Hello,World!&#xA;龙-红蓼： ![红蓼](https://img2.imgtp.com/2024/04/14/LlYsvjXT.jpg &amp;ldquo;红蓼&amp;rdquo;）</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://voyiid.github.io/2024%E5%BE%85%E5%8A%9E/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://voyiid.github.io/2024%E5%BE%85%E5%8A%9E/</guid>
+      <description>英语 研究生 应聘</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://voyiid.github.io/%E5%94%AF%E6%9C%89%E4%BA%BA%E7%94%9F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://voyiid.github.io/%E5%94%AF%E6%9C%89%E4%BA%BA%E7%94%9F/</guid>
+      <description>惟有在人生的事实这本身中寻出欢喜者，可以活下去。有人建议我，应该奔着问题去。要做，就要做最重要的事。我一直都记得。</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://voyiid.github.io/%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://voyiid.github.io/%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81/</guid>
+      <description>steam voyiid&amp;ndash;*St8329386&#xA;学信网 18668082575&amp;ndash;*Xx8329386</description>
     </item>
   </channel>
 </rss>
