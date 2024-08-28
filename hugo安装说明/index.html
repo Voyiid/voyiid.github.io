@@ -54,7 +54,7 @@
   <time datetime=2024-04-14T16:25:59&#43;0800 class="post-date">Sun, Apr 14, 2024</time>
   <p>1、主要参考网站:https://www.gohugo.org/</p>
 <p>2、关键问题1： 本地验证完全，建立git准备发布至github前，应该先将本地分支重命名为main；
-否则，上传按照默认master上传，会自动新建分支，而username.github.io无法正常获取master分支下的博客信息，起只取得main分支下的。
+否则，上传按照默认master上传，会自动新建分支，而username.github.io无法正常获取master分支下的博客信息，且只取main分支下的。
 原因： github新建仓库默认分支为main，而不是master了；
 命令：git branch -m main</p>
 <p>3、关键问题2：git首次上传commit时，会提示&quot;作者身份未知&quot;，此时就需要按照提示配置：
